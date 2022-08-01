@@ -12,7 +12,6 @@ Follow the instructions for ZSH Terminal confguration on RHEL/CentOS/Fedora Syst
 
 5. The main reason I recommend using ZSH is its Auto suggestions feature. 
    Download the OhMyZSH configuration and add the in plugins section in ~/.zshrc:
-
 git clone https://github.com/zsh-users/zsh-autosuggestions ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-autosuggestions
  
 plugins=( 
