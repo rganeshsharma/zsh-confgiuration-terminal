@@ -30,7 +30,8 @@ plugins=(
 )
 
 7. PowerLevel10K for prompt customizations and update themes in ~/.zshrc:
-8.  Add new desired fonts or use default font with your desired terminal and download Powerlevel10K from:
+   Add new desired fonts or use default font with your desired terminal and download Powerlevel10K from:
+
 git clone --depth=1 https://github.com/romkatv/powerlevel10k.git ${ZSH_CUSTOM:-$HOME/.oh-my-zsh/custom}/themes/powerlevel10k
  
 ZSH_THEME="powerlevel10k/powerlevel10k" in ~/.zshr
