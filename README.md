@@ -12,6 +12,7 @@ Follow the instructions for ZSH Terminal confguration on RHEL/CentOS/Fedora Syst
 
 5. The main reason I recommend using ZSH is its Auto suggestions feature. 
    Download the OhMyZSH configuration and add the in plugins section in ~/.zshrc:
+
 git clone https://github.com/zsh-users/zsh-autosuggestions ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-autosuggestions
  
 plugins=( 
@@ -19,14 +20,17 @@ plugins=(
     zsh-autosuggestions
 )
 
-6.   Add ZSH Syntax Highlighter:
- git clone https://github.com/zsh-users/zsh-syntax-highlighting.git ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-syntax-highlighting
+6.   Add ZSH Syntax Highlighter and update the plugins section in ~/.zshrc:
+git clone https://github.com/zsh-users/zsh-syntax-highlighting.git ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-syntax-highlighting
  
- plugins=( 
+plugins=( 
     # other plugins...
     zsh-autosuggestions
     zsh-syntax-highlighting
 )
 
-7.PowerLevel10K for prompt customizations:
-  
+7.PowerLevel10K for prompt customizations and update themes in ~/.zshrc:
+  Add new desired fonts or use default font with your desired terminal and download Powerlevel10K from:
+ git clone --depth=1 https://github.com/romkatv/powerlevel10k.git ${ZSH_CUSTOM:-$HOME/.oh-my-zsh/custom}/themes/powerlevel10k
+ 
+ ZSH_THEME="powerlevel10k/powerlevel10k" in ~/.zshr
