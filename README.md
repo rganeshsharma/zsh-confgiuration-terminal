@@ -1,5 +1,5 @@
-# zsh-confgiuration-terminal
-Follow the instructions for ZSH Terminal confguration on RHEL/CentOS/Fedora Systems:
+# zsh-configuration-terminal
+Follow the instructions for ZSH Terminal confguration on Arch/Ubuntu/CentOS/Fedora Systems:
 
 1. ZSH install : sudo dnf install zsh -y
 
